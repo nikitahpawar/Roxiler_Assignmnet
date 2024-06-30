@@ -5,7 +5,6 @@ import './index.css'
 
 const Statistics = (props) => {
   const [statistics, setStatistics] = useState({});
-//   const [selectedMonth, setSelectedMonth] = useState('march');
 const {selectedMonth} = props
 
   useEffect(() => {
